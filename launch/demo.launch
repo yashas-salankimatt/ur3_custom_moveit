@@ -66,4 +66,6 @@
     <arg name="moveit_warehouse_database_path" value="$(arg db_path)"/>
   </include>
 
+  <node pkg="impedance_test" name ="" type="impedance_test" />
+
 </launch>
